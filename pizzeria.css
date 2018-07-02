@@ -19,11 +19,16 @@ footer a {
     font-weight: bold;
 }
 
-li {
+li {    
     background-color: #C03000;
     border: 2px solid #660000;
     list-style: none;
 }
+
+li:hover{
+    background-color: #009900;
+}
+  
 
 li a {
     color: #EFECCA;
