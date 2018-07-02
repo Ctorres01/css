@@ -19,23 +19,18 @@ footer a {
     font-weight: bold;
 }
 
-li {    
-    background-color: #C03000;
-    border: 2px solid #660000;
-    list-style: none;
-}
-
-li:hover{
-    background-color: #009900;
-}
-  
-
-li a {
+nav ul li a {
     color: #EFECCA;
     text-decoration: none;
+    background-color: #C03000;
+    border: 2px solid #660000;
 }
 
-nav li{
-    display: inline-block;
-    padding: 6px;
+nav ul li a:focus, nav ul li a:hover {
+    background-color: #009900;
+    text-decoration: underline;
+}
+
+nav ul li{
+    display: inline;
 }
