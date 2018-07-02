@@ -32,19 +32,18 @@ footer {
 
     .left-aside {
         order: 0;
-        display: flex;
-        flex-wrap: wrap;
+        flex: 1 30%;
         text-align: center;
     }
 
     .right-aside {
         order: 2;
-        display: flex;
+        flex: 1 30%;
         text-align: center;
     }
 
     main {
-        flex: 1 0px;
+        flex: 1 30%;
         order: 1;
     }
 
